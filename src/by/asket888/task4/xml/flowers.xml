@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<goods_in_flowers_store>
+    <!-- Available flowers -->
+    <flower id="1">
+        <flower_name>Bellflower_xml</flower_name>
+        <flower_price>13.5</flower_price>
+    </flower>
+    <flower id="2">
+        <flower_name>Calendula_xml</flower_name>
+        <flower_price>2.5</flower_price>
+    </flower>
+    <flower id="3">
+        <flower_name>Honeysuckle_xml</flower_name>
+        <flower_price>10</flower_price>
+    </flower>
+    <flower id="4">
+        <flower_name>Iris_xml</flower_name>
+        <flower_price>6</flower_price>
+    </flower>
+    <flower id="5">
+        <flower_name>Lotus_xml</flower_name>
+        <flower_price>7.5</flower_price>
+    </flower>
+    <flower id="6">
+        <flower_name>Mimosa_xml</flower_name>
+        <flower_price>11</flower_price>
+    </flower>
+    <flower id="7">
+        <flower_name>Violet_xml</flower_name>
+        <flower_price>4.5</flower_price>
+    </flower>
+    <flower id="8">
+        <flower_name>Wisteria_xml</flower_name>
+        <flower_price>7</flower_price>
+    </flower>
+</goods_in_flowers_store>

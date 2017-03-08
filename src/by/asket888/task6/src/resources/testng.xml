@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter login and password">
+
+    <test name = "login">
+
+        <parameter name="loginParam" value="Administrator" />
+        <parameter name="passwordParam" value="Password" />
+
+        <classes>
+            <class name="cdp.selenium.tests.CalculatorLinkTest_YES_PO" >
+                <methods>
+                    <include name="login" />
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

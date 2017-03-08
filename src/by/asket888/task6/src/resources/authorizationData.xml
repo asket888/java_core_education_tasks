@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authorization_data>
+
+    <parameter id="1">
+        <login>Administrator</login>
+        <password>Password</password>
+    </parameter>
+
+</authorization_data>

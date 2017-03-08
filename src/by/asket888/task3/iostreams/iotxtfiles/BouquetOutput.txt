@@ -1,0 +1,5 @@
+Our program just generated a perfect bouquet from 5 flowers 
+Look! Best flowers in one place: 
+[Mimosa_txt, Foxglove_txt, Mimosa_txt, Delphinium_txt, Delphinium_txt]
+
+Only today the price for this excellent bouquet is 33.0 belorussian rubles
