@@ -26,15 +26,17 @@ List of tasks and links is below:
         b. Add data reading from DB using jdbc driver;
            https://github.com/asket888/java_basics/tree/master/src/by/asket888/task4/jdbc
 5) Task#5:
-        Create and train neural network which will make one of action decisions if it meets one or more hoodlums in a dark alley;
-        https://github.com/asket888/java_basics/tree/master/src/by/asket888/task5
+        a. Create and train neural network which will make one of action decisions if it meets one or more hoodlums in a dark alley;
+           https://github.com/asket888/java_basics/tree/master/src/by/asket888/task5
 6) Task#6:
-        Create automation framework using all best approaches (OOP, Page Object, Page Factory, Asserts, JavaScript Executor, Singleton,
-        Decorator, Factory Method, Static Factory, Parallelization);
-        https://github.com/asket888/java_basics/tree/master/src/by/asket888/task6
+        a. Create automation framework using all best approaches (OOP, Page Object, Page Factory, Asserts, JavaScript Executor,
+           Singleton, Decorator, Factory Method, Static Factory, Parallelization);
+           https://github.com/asket888/java_basics/tree/master/src/by/asket888/task6
 7) Task#7:
-        Create BDD automation framework for ebay.com "Add to cart" feature testing. Use  Selenium WD, Cucumber, Junit;
-        https://github.com/asket888/java_basics/tree/master/src/by/asket888/task7
+        a. Create BDD automation framework for ebay.com "Add to cart" feature testing. Use  Selenium WD, Cucumber, Junit;
+           https://github.com/asket888/java_basics/tree/master/src/by/asket888/task7
 8) Task#8:
-        Test responces from service thomas-bayer.com. Use GET, POST and DELETE requests;
-        https://github.com/asket888/java_basics/tree/master/src/by/asket888/task8/src/test/java
+        a. Create scenario for services testing using SoapUI (Ready API). Save scenario as .xml
+           https://github.com/asket888/java_basics/tree/master/src/by/asket888/task8
+        b. Test responces from service thomas-bayer.com. Use Http Client for GET, POST and DELETE requests implementation;
+           https://github.com/asket888/java_basics/tree/master/src/by/asket888/task8/src/test/java
