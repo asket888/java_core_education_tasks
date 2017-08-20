@@ -1,19 +1,16 @@
-package add_to_card.steps;
+package tests.steps;
 
-import add_to_card.locators.AddToCardLocator;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import test.BaseDriver;
+import tests.BaseTest;
 
-public class CheckEmptyCart extends BaseDriver implements AddToCardLocator {
+public class CheckEmptyCardSteps extends BaseTest {
 
     @Given("^I go to shop's main page$")
-    public void iGoToMainPage() {
-        driver.get("http://ebay.com");
-    }
+    public void iGoToMainPage() {}
 
     @When("^I open my cart's page$")
     public void iOpenMyCartPage() {
@@ -22,6 +19,6 @@ public class CheckEmptyCart extends BaseDriver implements AddToCardLocator {
 
     @Then("^I got a message that one is empty$")
     public void iGotAMessageThatCartIsEmpty(){
-        Assert.assertTrue(driver.getPageSource().contains("Ваша корзина пуста"));
+        Assert.assertTrue(driver.getPageSource().contains("Your shopping cart is empty"));
     }
 }

@@ -1,11 +1,9 @@
-package add_to_card;
-
-import test.BaseDriver;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+import config.BaseDriver;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -15,11 +13,11 @@ import org.junit.runner.RunWith;
         }
 )
 
-public class AddToCardTest {
+public class RunCukeTest {
 
     @BeforeClass
     public static void initSelenium(){
-        BaseDriver.init();
+        BaseDriver.getDriver();
     }
     @AfterClass
     public static void closeSelenium(){

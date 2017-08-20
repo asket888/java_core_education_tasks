@@ -1,4 +1,4 @@
-package test;
+package config;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -7,10 +7,19 @@ public class BaseDriver {
 
     public static WebDriver driver;
 
-
-    public static void init(){
+    private static void setUp(){
+        System.setProperty("webdriver.chrome.driver", "D:/WORK/JAVA_Projects/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+        driver.get("http://ebay.com");
+    }
+
+    public static WebDriver getDriver() {
+
+        if (driver == null) {
+            setUp();
+        }
+        return driver;
     }
 
     public static void close(){

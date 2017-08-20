@@ -1,22 +1,20 @@
-package add_to_card.steps;
+package tests.steps;
 
-import add_to_card.locators.AddToCardLocator;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import test.BaseDriver;
+import tests.BaseTest;
 
-public class AddToCardFromGoodsPage extends BaseDriver implements AddToCardLocator{
+public class AddGoodsToCardSteps extends BaseTest {
 
     String goodsInSearchTitle;
     String goodsInCartTitle;
 
     @Given("^I set search request \"([^\"]*)\"$")
     public void iSetSearchRequest(String searchRequest){
-        driver.get("http://ebay.com");
         driver.findElement(By.xpath(searchInputLocator)).sendKeys(searchRequest);
         driver.findElement(By.xpath(searchButtonLocator)).click();
     }
@@ -35,7 +33,7 @@ public class AddToCardFromGoodsPage extends BaseDriver implements AddToCardLocat
     @Then("^I transfer to cart page$")
     public void goodDisplaysInMyCart(){
         String pageTitle = driver.findElement(By.xpath(pageTitleLocator)).getText();
-        Assert.assertEquals(pageTitle, "Ваша корзина");
+        Assert.assertEquals(pageTitle, "Your eBay Shopping Cart");
     }
 
     @And("^selected good displays in my cart$")
