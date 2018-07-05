@@ -1,5 +1,4 @@
 This project contains of several samples of Java QA automation engineer tasks.
-Some of them I got while Java basics self studying. Another ones show QA automation basics aproaches.
 List of tasks and links is below:
 
 1) Task#1:
